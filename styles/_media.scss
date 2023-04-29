@@ -1,0 +1,187 @@
+@media screen and (max-width: 600px){
+    header{
+        padding: 0;
+    }
+    .right-header{
+        padding: 0 !important;
+        grid-row: 1;
+        width: 90%;
+        margin: 0 auto;
+        .name{
+            font-size: 2.5rem !important;
+        }
+    }
+    .header-content{
+        grid-template-columns: 1fr;
+    }
+    .left-header{
+        .h-shape{
+            display: none;
+        }
+        .image{
+            width: 90% !important;
+            margin: 0 auto !important;
+        }
+    }
+    .about-container{
+        grid-template-columns: 1fr;
+        .right-about{
+            grid-template-columns: 1fr;
+        }
+        .left-about{
+            padding-right: 0;
+            p{
+                padding-left: 0;
+            }
+        }
+    }
+    .about-more{
+        .progress-bars{
+            grid-template-columns: 1fr;
+        }
+    }
+    .portfolios{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+    .main-title{
+        h2{
+            font-size: 2rem;
+            span{
+                font-size: 2.5rem;
+            }
+            .bg-text{
+                font-size: 3.5rem;
+            }
+        }
+    }
+    .section{
+        padding: 2rem 2.5rem;
+    }
+    .controlls{
+        top: auto;
+        bottom: 0;
+        flex-direction: row;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        background-color: rgb(52, 31, 21);
+        .control{
+            margin: 1rem .3rem;
+        }
+    }
+    .flip-card{
+        margin-left: -3rem;
+    }
+}
+@media screen and (max-width:1250px){
+    .portfolios{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .header-content .right-header{
+        padding-right: 9rem;
+    }
+    .about-container{
+        grid-template-columns: 1fr;
+        grid-gap: 2rem;
+    }
+    .team-con{
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 7rem;
+        margin-left: -4rem;
+    }
+
+}
+@media screen and (max-width:660px){
+    .portfolios{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media screen and (max-width:1070px){
+    .about-container{
+        grid-template-columns: repeat(1, 1fr);
+        .right-about{
+            padding-top: 2.5rem;
+        }
+    }
+    .main-title{
+        h2{
+            font-size: 4rem;
+            span{
+                font-size: 4rem;
+            }
+            .bg-text{
+                font-size: 4.5rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:970px){
+    .section{
+        padding: 0.5rem 6rem;
+    }
+    .about-container .left-about{
+        padding-right: 0rem;
+    }
+    .header-content{
+        grid-template-columns: repeat(1, 1fr);
+        padding-bottom: 6rem;
+    }
+
+    .left-header{
+        .h-shape{
+            display: none;
+        }
+        .image{
+            width: 90% !important;
+            margin: 0 auto !important;
+            
+        }
+    }
+    .right-header{
+        grid-row: 1;
+        padding-right: 0rem !important;
+        width: 90%;
+        margin: 0 auto;
+        .name{
+            font-size: 2.5rem !important;
+            text-align: center;
+            padding-top: 1rem;
+        }
+    }
+}
+@media screen and (max-width:700px){
+    .container{
+        padding: 7rem 3rem;
+    }
+    .about-stats .progress-bars{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .about-container .right-about{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .team-con{
+        grid-template-columns: repeat(1,1fr);
+        margin-left: 5rem;
+    }
+
+    .main-title{
+        h2{
+            font-size: 3rem;
+            span{
+                font-size: 3rem;
+            }
+            .bg-text{
+                font-size: 4rem;
+            }
+        }
+    }
+}
+@media screen and (max-width: 500px){
+    .flip-card{
+        margin-left: -10rem;
+
+    }
+}
